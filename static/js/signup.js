@@ -1,4 +1,4 @@
-var signupUrl = "http://127.0.0.1:5000/signup"
+var signupUrl = window.CFF.authUrl + '/signup';
 
 function signup() {
     var options = {
